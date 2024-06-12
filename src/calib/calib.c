@@ -6,14 +6,6 @@
 #include "misc.h"
 #include <stdbool.h>
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include "structs.h"
-#include "arralloc.h"
-#include "misc.h"
-#include <stdbool.h>
-
 // Compute the dimensions of the grid based on the landscape size and Cartesian grid dimensions.
 int check_divisibility(int landscape, int dimension, const char* dim_name, int rank) {
     if (landscape % dimension != 0) {

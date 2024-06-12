@@ -1,9 +1,5 @@
-#include <mpi.h>
 #include <string.h>
-#include "structs.h"
-#include "args.h"
 #include "calib.h"
-#include "mplib.h"
 #include "arralloc.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -11,6 +7,7 @@
 #include "parlib.h"
 #include "mem.h"
 #include "misc.h"
+#include "mplib.h"
 
 #define FIRSTPERIODICBOUNDARYDIVISOR 8
 #define SECONDPERIODICBOUNDARYDIVISOR 7
