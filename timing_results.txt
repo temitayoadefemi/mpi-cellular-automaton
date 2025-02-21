@@ -1,0 +1,86 @@
+Timing results for Conway's Game of Life scaling tests
+Start Time: Mon Feb 17 13:26:55 WAT 2025
+
+Weak Scaling Test: Fixed 5 processors, varying landscape sizes
+Landscape Size: 500
+  Run #1:
+
+real	0m3.878s
+user	0m16.441s
+sys	0m0.170s
+  ------------------------------------
+  Run #2:
+
+real	0m3.512s
+user	0m15.817s
+sys	0m0.109s
+  ------------------------------------
+  Run #3:
+
+real	0m3.682s
+user	0m16.416s
+sys	0m0.120s
+  ------------------------------------
+  Run #4:
+
+real	0m3.903s
+user	0m16.613s
+sys	0m0.166s
+  ------------------------------------
+  Run #5:
+
+real	0m3.487s
+user	0m15.659s
+sys	0m0.130s
+  ------------------------------------
+  Run #6:
+
+real	0m3.574s
+user	0m15.989s
+sys	0m0.124s
+  ------------------------------------
+  Run #7:
+
+real	0m3.685s
+user	0m15.808s
+sys	0m0.166s
+  ------------------------------------
+  Run #8:
+
+real	0m3.853s
+user	0m15.892s
+sys	0m0.174s
+  ------------------------------------
+  Run #9:
+
+real	0m3.660s
+user	0m15.844s
+sys	0m0.171s
+  ------------------------------------
+  Run #10:
+
+real	0m3.529s
+user	0m15.831s
+sys	0m0.112s
+  ------------------------------------
+
+Landscape Size: 1000
+  Run #1:
+
+real	0m12.376s
+user	0m55.341s
+sys	0m0.352s
+  ------------------------------------
+  Run #2:
+
+real	0m12.161s
+user	0m54.846s
+sys	0m0.357s
+  ------------------------------------
+  Run #3:
+
+real	0m12.691s
+user	0m56.680s
+sys	0m0.347s
+  ------------------------------------
+  Run #4:
